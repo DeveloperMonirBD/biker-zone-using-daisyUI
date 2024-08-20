@@ -149,17 +149,74 @@
 
   <!-- Main Section -->
   <main class="md:container mx-auto">
+
+    <!-- featured section  -->
     <section>
       <div class="flex flex-col gap-2 justify-center items-center mt-12">
         <h1 class="text-2xl font-bold">Fetured Bikes In This Year</h1>
         <p>Best bike collection</p>
       </div>
-      <div class=" flex flex-col lg:flex-row md:gap-6 justify-center items-center mt-10">
+      <div class=" grid md:grid-cols-2 lg:grid-cols-3 md:gap-6 justify-center items-center mt-10">
           <img src="./images/slider/bike4.png" alt="">
           <img src="./images/slider/bike4.png" alt="">
           <img src="./images/slider/bike4.png" alt="">
       </div>
     </section>
+
+    <!-- Latest News section  -->
+    <section>
+      <div class="flex flex-col gap-2 justify-center items-center mt-12 mb-12">
+        <h1 class="text-2xl font-bold">Latest News</h1>
+      </div>
+      <div class="grid max-w-full md:grid-cols-2 lg:grid-cols-3 md:gap-6 justify-center items-center">
+        <!-- card-1  -->
+        <div class="card bg-base-100 w-96 shadow-xl flex">
+          <figure>
+            <img class="bg-cover" src="./images/others/latest1.png" alt="Shoes" />
+          </figure>
+          <div class="card-body flex flex-col gap-4">
+            <h2 class="card-title font-bold">
+              Ducati XDIAVEL S-73
+            </h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet faucibus sed id nisi lectus at.</p>
+            <div>
+              <button class="bg-bike-primary px-6 py-4 text-white rounded-md">Read More</button>
+            </div>
+          </div>
+        </div>
+        <!-- card-2  -->
+        <div class="card bg-base-100 w-96 shadow-xl flex">
+          <figure>
+            <img class="bg-cover" src="./images/others/latest2.png" alt="Shoes" />
+          </figure>
+          <div class="card-body flex flex-col gap-4">
+            <h2 class="card-title font-bold">
+              Motorcycles & Scooters 
+            </h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet faucibus sed id nisi lectus at.</p>
+            <div>
+              <button class="btn btn-outline btn-error px-6 py-4">Read More</button>
+            </div>
+          </div>
+        </div>
+        <!-- card-3  -->
+        <div class="card bg-base-100 w-96 shadow-xl flex">
+          <figure>
+            <img class="bg-cover" src="./images/others/latest3.png" alt="Shoes" />
+          </figure>
+          <div class="card-body flex flex-col gap-4">
+            <h2 class="card-title font-bold">
+              2021 Honda CBR500R
+            </h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet faucibus sed id nisi lectus at.</p>
+            <div>
+              <button class="btn btn-outline btn-error px-6 py-4">Read More</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
     
   </main>
 
